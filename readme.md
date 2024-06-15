@@ -116,11 +116,8 @@ WD-ProjectName
 | Draw Underline Link Hover Effect CSS Menu Hover Effect | Nav bar design | https://www.youtube.com/watch?v=aswRKAjjWuE&t=276s |
 | How to create Animated Search Bar using HTML and CSS Website Search Box | Nav bar design | https://www.youtube.com/watch?v=AmdIfgxMqY8 |
 | Design Your Personal Responsive Portfolio Website with HTML and CSS Step by Step Guide | Nav bar design | https://www.youtube.com/watch?v=KFJbIyqgGt0 |
-| Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox | Nav bar design | https://www.youtube.com/watch?v=PwWHL3RyQgk&t=629s |
-| Cool CSS Menu Hover Effects - Using :before and :after pseudo element - Pure CSS Tutorial | Nav bar design | https://www.youtube.com/watch?v=9t6j2UQx0Dc |
+| Navbar CSS Tutorial 3 Ways to Create a Navigation Bar with Flexbox | Nav bar design | https://www.youtube.com/watch?v=PwWHL3RyQgk&t=629s |
+| Cool CSS Menu Hover Effects Using :before and :after pseudo element Pure CSS Tutorial | Nav bar design | https://www.youtube.com/watch?v=9t6j2UQx0Dc |
 | Responsive Footer Using HTML and CSS Footer UI Design CSS Projects | Footer design | https://www.youtube.com/watch?v=Clc8XkOmF0w&t=232s |
 | Personal Portfolio Website using HTML & CSS | Landing Page design | https://www.youtube.com/watch?v=RroDdybvu5s&t=304s |
-| Draw Underline Link Hover Effect CSS Menu Hover Effect | Nav bar design | https://www.youtube.com/watch?v=aswRKAjjWuE&t=276s |
-| Draw Underline Link Hover Effect CSS Menu Hover Effect | Nav bar design | https://www.youtube.com/watch?v=aswRKAjjWuE&t=276s |
-| Draw Underline Link Hover Effect CSS Menu Hover Effect | Nav bar design | https://www.youtube.com/watch?v=aswRKAjjWuE&t=276s |
-| Draw Underline Link Hover Effect CSS Menu Hover Effect | Nav bar design | https://www.youtube.com/watch?v=aswRKAjjWuE&t=276s |
+| Advanced CSS Button Hover Animation Effects | Nav bar and Footer design | https://www.youtube.com/watch?v=ANLgG1RtFVM |
