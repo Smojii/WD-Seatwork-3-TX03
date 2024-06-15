@@ -1,0 +1,594 @@
+@font-face {
+    font-family: broom;
+    src: url(../../../../assets/fonts/Formula1-Bold_web_0.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    text-align: center;
+    overflow-x: hidden;
+    font-family: broom;
+}
+
+body h1{
+    margin-bottom: 100px;
+}
+
+.home{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header.style1 {
+    background-color: black;
+    padding: 15px;
+    box-shadow: 0 0 3px teal;
+}
+
+header.style1 li{
+    display: inline;
+    padding-left: 45px;
+}
+
+header.style1 a{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.style1 img{
+    float: left;
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+header.style2 {
+    background-color:#AE0107;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header.style2 li{
+    display: inline;
+    padding-left: 60px;
+}
+
+header.style2 a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header.style2 img{
+    float: left;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+header.style3 {
+    background-color:#006861;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header.style3 li{
+    display: inline;
+    padding-left: 60px;
+}
+
+header.style3 ul #menu a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    float: left;
+    position: relative;
+    top: -25px;
+}
+
+header.style3 img{
+    width: 130px;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-bottom: -30px;
+}
+
+header.style3 ul #shop a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: azure;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -10px;
+}
+
+header.style4 {
+    background-color: #E7E3D7;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header.style4 li{
+    display: inline;
+    padding-left: 60px;
+}
+
+header.style4 a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    font-family: "Russo One", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+header.style4 ul #contact a{
+    margin-left: 140px;
+    position: relative;
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+header.style4 ul #shop a{
+    margin-right: -60px;
+    position: relative;
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+header.style4 img{
+    float: right;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+header.style5 {
+    background-color:#031930;
+    padding: 15px;
+    box-shadow: 0 0 3px #AE0107;
+}
+
+header.style5 li{
+    display: inline;
+    padding-left: 60px;
+}
+
+header.style5 a{
+    color: #E5EFF1;
+    text-decoration: none;
+    padding: 13px;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header.style5 img{
+    float: left;
+    width: 140px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+
+
+header.style1n {
+    background-color: black;
+    padding: 15px;
+    box-shadow: 0 0 3px teal;
+}
+
+header.style1n li{
+    display: inline;
+    padding-left: 45px;
+}
+
+header.style1n a{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid transparent;
+}
+
+header.style1n img{
+    float: left;
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.nav__merc a:hover{
+    border-top-color: teal;
+    border-bottom-color: teal;
+    color: teal;
+}
+
+header.style2n {
+    background-color:#AE0107;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+    display: flex;
+}
+
+header.style2n li{
+    display: inline;
+    padding-left: 60px;
+    position: relative;
+}
+
+.nav__link a::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: 10px;
+    transition: 0.5s;
+}
+
+.nav__link a:hover{
+    color: #FBFCE5;
+}
+
+.nav__link a:hover:after{
+    width: 100%;
+}
+
+header.style2n a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+header.style2n img{
+    float: left;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.nav__search{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.nav__search:hover input{
+    width: 100px;
+}
+
+.nav__search input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+
+header.style3n {
+    background-color:#006861;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header.style3n li{
+    display: inline;
+    padding-left: 60px;
+}
+
+header.style3n ul{
+    transition: transform 0.5;
+}
+
+header.style3n img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+header.style3n ul #menu a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    float: left;
+    position: relative;
+    top: -25px;
+}
+
+header.style3n ul #menu a:hover{
+    transform: scale(1.1, 1.1);
+}
+
+header.style3n img{
+    width: 130px;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-bottom: -30px;
+}
+
+header.style3n ul #shop a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: azure;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+header.style3n ul #shop a:hover{
+    letter-spacing: 3px;
+
+}
+
+header.style4n {
+    background-color: #E7E3D7;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header.style4n li{
+    display: inline;
+    padding-left: 60px;
+}
+
+.nav__mc a{
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav__mc a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: .5s;
+}
+
+.nav__mc a:hover:before{
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+header.style4n a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    font-family: "Russo One", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+header.style4n ul #contact a{
+    margin-left: 140px;
+    position: relative;
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header.style4n ul #contact a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: .5s;
+}
+
+header.style4n ul #contact a:hover:before{
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+header.style4n ul #shop a{
+    margin-right: -60px;
+    position: relative;
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header.style4n ul #shop a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: .5s;
+}
+
+header.style4n ul #shop a:hover:before{
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+header.style4n img{
+    float: right;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+header.style5n {
+    background-color:#031930;
+    padding: 15px;
+    box-shadow: 0 0 3px #AE0107;
+}
+
+header.style5n li{
+    display: inline;
+    padding-left: 60px;
+}
+
+header.style5n a{
+    color: #B9BCC4;
+    text-decoration: none;
+    padding: 13px;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav__rb a{
+    position: relative;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    background: #02182D;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.nav__rb a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav__rb a span{
+    display: block;
+    position: absolute;
+    background: #FADC0C;
+}
+
+.nav__rb a span:nth-child(1){
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.nav__rb a:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.nav__rb a span:nth-child(2){
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.nav__rb a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+header.style5n img{
+    float: left;
+    width: 140px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.nav__rb a span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav__rb a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav__rb a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav__rb a:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}

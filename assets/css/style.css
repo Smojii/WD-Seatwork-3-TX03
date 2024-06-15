@@ -1,0 +1,94 @@
+@font-face {
+    font-family: broom;
+    src: url(../fonts/Formula1-Bold_web_0.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'formula1-display-regular-2', sans-serif;
+}
+
+body{
+    background-image: url(../img/BACKGROUND.jpg);
+    background-size: cover;
+}
+
+
+.begin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.content{
+    max-width: 600px;
+}
+
+.content h1 {
+    font-family: broom;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content h3 {
+    font-family: broom;
+    font-size: 32px;
+    font-weight: 700;
+    color: floralwhite;
+}
+
+.content p {
+    margin: 30px 0 20px;
+    font-family: broom;
+    font-size: 16px;
+    color: floralwhite;
+}
+
+.content button{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    color: gray;
+}
+
+.button a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: firebrick;
+    border: 2px solid firebrick;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-family: broom;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.button a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: floralwhite;
+    z-index: -1;
+    transition: .5s;
+}
+
+.button a:hover::before {
+    width: 100%;
+}
