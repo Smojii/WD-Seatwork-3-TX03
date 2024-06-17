@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/pic.jpg" alt="pic" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Header and Footer</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Smojii/WD-Seatwork-3-TX03)
 
 ---
 
@@ -47,6 +47,9 @@
     </li>
     <li>
       <a href="#resources">Resources</a>
+    </li>
+    <li>
+      <a href="#deployment-link">Deployment</a>
     </li>
   </ol>
 </details>
@@ -121,3 +124,7 @@ WD-ProjectName
 | Responsive Footer Using HTML and CSS Footer UI Design CSS Projects | Footer design | https://www.youtube.com/watch?v=Clc8XkOmF0w&t=232s |
 | Personal Portfolio Website using HTML & CSS | Landing Page design | https://www.youtube.com/watch?v=RroDdybvu5s&t=304s |
 | Advanced CSS Button Hover Animation Effects | Nav bar and Footer design | https://www.youtube.com/watch?v=ANLgG1RtFVM |
+
+## Deployment link
+
+https://smojii.github.io/WD-Seatwork-3-TX03/
