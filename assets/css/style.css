@@ -22,6 +22,10 @@ body{
     align-items: center;
     padding: 0 10%;
 }
+.begin img{
+    height: 40rem;
+    width: 45rem;
+}
 
 .content{
     max-width: 600px;
@@ -61,7 +65,8 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    margin-bottom: 10px;
+    width: 250px;
     height: 100%;
     background: firebrick;
     border: 2px solid firebrick;
